@@ -1,9 +1,6 @@
 'use strict';
 
-const express = require('express');
 
-function createServer() {
-  const app = express();
   let idCount = 0;
   let idExperence = 0;
   let users = [];
