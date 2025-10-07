@@ -1,10 +1,6 @@
 'use strict';
 
 
-  let idCount = 0;
-  let idExperence = 0;
-  let users = [];
-  let expenses = [];
 
   app.get('/users', (req, res) => {
     if (users.length === 0) {
